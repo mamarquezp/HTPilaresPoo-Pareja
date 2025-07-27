@@ -13,6 +13,7 @@ public class Program
         Console.WriteLine("2. Ejercicio de Usuario con Validación");
         Console.WriteLine("3. Ejercicio de Inventario Controlado");
 
+
         string opcion = Console.ReadLine();
 
         switch (opcion)
