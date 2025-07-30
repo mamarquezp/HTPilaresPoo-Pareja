@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*Ejercicio 4: Jerarquía de vehículos con clase abstracta
+Utilizar clases abstractas para definir comportamientos comunes en tipos de objetos relacionados.
+Crea una clase abstracta Vehiculo con métodos Encender() y Conducir().
+Luego, implementa dos clases concretas: Carro y Motocicleta.
+Cada tipo debe definir un comportamiento distinto al conducir.
+Crea una lista de Vehiculo y recórrela para probar el comportamiento polimórfico.*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

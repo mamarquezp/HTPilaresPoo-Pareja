@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*Ejercicio 6: Sistema de documentos fiscales con generación de reportes
+Aplicar abstracción y polimorfismo en un contexto profesional.
+Define una clase abstracta DocumentoFiscal con un método GenerarPDF() y atributo
+Numero.
+Luego, crea subclases: Factura, NotaCredito, NotaDebito, cada una con una implementación
+propia del método.
+Crea una clase GestorDocumentos que reciba una lista de documentos y ejecute
+GenerarPDF() sin importar su tipo específico.*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
